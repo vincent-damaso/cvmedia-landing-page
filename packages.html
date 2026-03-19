@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV Media Packages — Starter, Growth, and Full Content Team plans for creators and businesses.">
+  <title>Packages — CV Media</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════ NAVBAR ══════════════════════════════════ -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">CV<span>.</span>media</a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="packages.html" class="active">Packages</a>
+        <div class="dropdown-menu" role="menu">
+          <a href="#starter" role="menuitem"><span class="ico">🚀</span> Starter Package</a>
+          <a href="#growth"  role="menuitem"><span class="ico">📈</span> Growth Package</a>
+          <a href="#full"    role="menuitem"><span class="ico">👑</span> Full Content Team</a>
+          <a href="#faq"     role="menuitem"><span class="ico">❓</span> FAQ</a>
+        </div>
+      </li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+    <a href="contact.html" class="btn-primary nav-cta">Contact Us →</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open mobile menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Mobile navigation">
+  <button class="mobile-nav-close" id="mobileClose" aria-label="Close menu">×</button>
+  <a href="index.html">Home</a>
+  <a href="packages.html">Packages</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn-primary mt-24">Book Free Review →</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-labelledby="packagesHeroTitle">
+  <div class="container">
+    <div class="pill fade-in">Pricing & Packages</div>
+    <h1 class="display-xl mt-16 fade-up" id="packagesHeroTitle">
+      Your Content Team<br><em class="text-red">(Without the Hiring)</em>
+    </h1>
+    <p class="fade-up delay-1">Choose what you need and start scaling today.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════ PACKAGES TABLE ════════════════════════════ -->
+<section class="section packages-section" id="packages" aria-labelledby="tableHeading">
+  <div class="container">
+    <div class="section-header text-center fade-up">
+      <h2 class="display-md" id="tableHeading">Find the right plan for you</h2>
+      <p>All plans include onboarding, a dedicated account manager, and a monthly strategy call.</p>
+    </div>
+
+    <div class="packages-table-wrap fade-up">
+      <table class="packages-table" role="table" aria-label="Package comparison table">
+        <caption class="visually-hidden">Comparison of Starter, Growth, and Full Content Team packages</caption>
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col" id="starter">
+              <div class="pkg-header">
+                <div class="pkg-label starter">Starter</div>
+                <h3>Starter Package</h3>
+                <div class="pkg-price">$1k–$2.5k<small>/mo</small></div>
+              </div>
+            </th>
+            <th scope="col" id="growth">
+              <div class="pkg-header">
+                <div class="pkg-label growth">Most Popular</div>
+                <h3>Growth Package</h3>
+                <div class="pkg-price">$3k–$5k<small>/mo</small></div>
+              </div>
+            </th>
+            <th scope="col" id="full">
+              <div class="pkg-header">
+                <div class="pkg-label full">Full Team</div>
+                <h3>Full Content Team</h3>
+                <div class="pkg-price">$6k–$10k<small>/mo</small></div>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="category-row">
+            <td colspan="4">Best For</td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Ideal Client</td>
+            <td>Creators who already film and need editing</td>
+            <td>Creators who want strategic growth</td>
+            <td>Businesses & creators replacing an in-house team</td>
+          </tr>
+
+          <tr class="category-row">
+            <td colspan="4">Video Production</td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Short-Form Video Editing</td>
+            <td><span class="check">✔</span><br><small>Up to 12/month</small></td>
+            <td><span class="check">✔</span><br><small>Up to 20/month</small></td>
+            <td><span class="check">✔</span><br><small>Up to 40/month</small></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Professional Motion Graphics</td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Captions & Platform Optimization</td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Thumbnail Design</td>
+            <td><span class="check">✔</span><br><small>Up to 8/month</small></td>
+            <td><span class="check">✔</span><br><small>Up to 20/month</small></td>
+            <td><span class="check">✔</span><br><small>Unlimited</small></td>
+          </tr>
+
+          <tr class="category-row">
+            <td colspan="4">Content Strategy</td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Script Writing</td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="check">✔</span><br><small>Up to 12/month</small></td>
+            <td><span class="check">✔</span><br><small>For all content</small></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Viral Hooks & Content Structure</td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Content Repurposing</td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span><br><small>Advanced</small></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Monthly Content Strategy</td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span><br><small>Advanced</small></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Content Calendar</td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="check">✔</span></td>
+            <td><span class="check">✔</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Audience & Competitor Analysis</td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="check">✔</span></td>
+          </tr>
+
+          <tr class="category-row">
+            <td colspan="4">Account Management</td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Social Media Management</td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="check">✔</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Posting & Scheduling</td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="cross">❌</span></td>
+            <td><span class="check">✔</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Analytics Reports</td>
+            <td>Monthly</td>
+            <td>Detailed</td>
+            <td>Advanced Dashboard</td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Strategy Calls</td>
+            <td>Monthly</td>
+            <td>Bi-weekly</td>
+            <td>Weekly</td>
+          </tr>
+          <tr>
+            <td class="feature-name" scope="row">Turnaround Priority</td>
+            <td>Standard</td>
+            <td>Priority</td>
+            <td>Highest Priority</td>
+          </tr>
+
+          <tr class="price-row">
+            <td></td>
+            <td>
+              <div class="big-price">$1k–$2.5k/mo</div>
+              <a href="contact.html" class="btn-outline mt-16" style="display:inline-flex;">Get Started →</a>
+            </td>
+            <td>
+              <div class="big-price">$3k–$5k/mo</div>
+              <a href="contact.html" class="btn-primary mt-16" style="display:inline-flex;">Get Started →</a>
+            </td>
+            <td>
+              <div class="big-price">$6k–$10k/mo</div>
+              <a href="contact.html" class="btn-outline mt-16" style="display:inline-flex;">Get Started →</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="text-center body-sm mt-24 fade-up">All prices are in USD. Custom enterprise plans available — <a href="contact.html" style="color:var(--clr-red);">contact us</a> for details.</p>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════ FAQ SECTION ════════════════════════════ -->
+<section class="section faq-section" id="faq" aria-labelledby="faqHeading">
+  <div class="container">
+    <div class="section-header text-center fade-up">
+      <div class="pill">FAQ</div>
+      <h2 class="display-md mt-16" id="faqHeading">Common Questions</h2>
+      <p>Everything you need to know before getting started.</p>
+    </div>
+
+    <div class="faq-list fade-up">
+
+      <div class="faq-item">
+        <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+          How quickly will I see results?
+          <span class="faq-icon bi bi-plus"></span>
+        </div>
+        <div class="faq-answer" aria-hidden="true">
+          Most clients see measurable improvement in engagement within the first 30 days. Growth in subscribers and revenue typically becomes significant between 60–90 days, depending on your niche, current audience size, and consistency of content output.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+          Do I need to be an existing creator to work with you?
+          <span class="faq-icon bi bi-plus"></span>
+        </div>
+        <div class="faq-answer" aria-hidden="true">
+          Not at all. We work with businesses, personal brands, and creators at every stage — including those just starting out. Our Growth and Full Content Team packages are especially suited for brand-new channels that need a fast, strategic launch.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+          What platforms do you support?
+          <span class="faq-icon bi bi-plus"></span>
+        </div>
+        <div class="faq-answer" aria-hidden="true">
+          We create content optimized for TikTok, Instagram Reels, YouTube Shorts, LinkedIn, X (Twitter), and Facebook. All videos are formatted specifically for each platform's algorithm and aspect ratio requirements.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+          How does the onboarding process work?
+          <span class="faq-icon bi bi-plus"></span>
+        </div>
+        <div class="faq-answer" aria-hidden="true">
+          After signing up, you'll have a 60-minute onboarding call with your dedicated account manager. We'll audit your existing content, define your brand voice, set KPIs, and build your first content calendar — all within 48 hours of signing.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" tabindex="0" role="button" aria-expanded="false">
+          Can I upgrade or downgrade my plan later?
+          <span class="faq-icon bi bi-plus"></span>
+        </div>
+        <div class="faq-answer" aria-hidden="true">
+          Absolutely. Plans are flexible and can be adjusted at any time with 7 days' notice. Many clients start on the Starter plan to test results, then upgrade to Growth or Full Content Team once they see the ROI. No lock-in contracts.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-48 fade-up">
+      <p class="mb-4">Still have questions?</p>
+      <a href="contact.html" class="btn-primary">Talk to Our Team →</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════ CTA STRIP ════════════════════════════ -->
+<section class="cta-strip">
+  <div class="container" style="position:relative;z-index:1;">
+    <h2>Ready to ditch the hiring headaches?</h2>
+    <p>Ask for a free content review and get a personalized content strategy in 24-72 hours.</p>
+    <a href="contact.html" class="btn-primary">Get Free Review →</a>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════ FOOTER ══════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">CV<span>.</span>media</div>
+        <p>Premium content creation agency for creators and businesses who want results, not overhead.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Pages</h4>
+        <ul role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Packages</h4>
+        <ul role="list">
+          <li><a href="#starter">Starter</a></li>
+          <li><a href="#growth">Growth</a></li>
+          <li><a href="#full">Full Team</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <ul role="list">
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="contact.html">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        <p>© 2025 CV Media. All rights reserved.</p>
+        <p class="mt-8">Developed by <strong>Vincent Damaso</strong> — IT130L Web Design & Development</p>
+      </div>
+      <nav class="sitemap" aria-label="Site map">
+        <span>Site Map:</span>
+        <a href="index.html">Home</a><span>|</span>
+        <a href="packages.html">Packages</a><span>|</span>
+        <a href="portfolio.html">Portfolio</a><span>|</span>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
